@@ -1,0 +1,18 @@
+
+Student Noriega,Ana Lilian, NetID alnorie graded on Sat Nov 30 23:38:15 EST 2019
+------------------------------------------
+Compilation completed correctly. Warnings provided in 'compErr.log' for your information.
+a: Properly using '/bin/sort' for sorting
+b: The parent process waits for all its children
+c: Stream functions (buffered I/O) being used for I/O to/from pipes
+d: Pipes are being closed by 'fclose' when used for stream-based I/O
+(-10 Points) e: Output has duplicates or is out of order with 1 sorter and a small file
+f: Output has no small (<5) or large (>25) words with 1 sorter and a small file
+(-3 Points) g2: Results are NOT correct for 2 sorter(s) and a small (5 KB) file
+(-3 Points) g3: Results are NOT correct for 3 sorter(s) and a small (5 KB) file
+(-3 Points) g5: Results are NOT correct for 5 sorter(s) and a small (5 KB) file
+(-3 Points) h1: Results are NOT correct for 1 sorter(s) and a large (1 MB) file
+(-3 Points) h3: Results are NOT correct for 3 sorter(s) and a large (1 MB) file
+(-3 Points) h5: Results are NOT correct for 5 sorter(s) and a large (1 MB) file
+------------------------------------------
+Final grade = 72

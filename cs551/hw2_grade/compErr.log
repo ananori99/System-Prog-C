@@ -1,0 +1,60 @@
+myar.c: In function ‘fill_ar_hdr’:
+myar.c:100:21: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 3 has type ‘struct timespec’ [-Wformat=]
+     sprintf(time,"%lu", fileStat.st_mtim);
+                   ~~^   ~~~~~~~~~~~~~~~~
+myar.c: In function ‘fill_meta’:
+myar.c:134:11: warning: unused variable ‘name’ [-Wunused-variable]
+     char  name[16];
+           ^~~~
+myar.c: In function ‘ext’:
+myar.c:317:40: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+         const struct utimbuf *timeN = {(time_t) ftime, (time_t) ftime };
+                                        ^
+myar.c:317:40: note: (near initialization for ‘timeN’)
+myar.c:317:56: warning: excess elements in scalar initializer
+         const struct utimbuf *timeN = {(time_t) ftime, (time_t) ftime };
+                                                        ^
+myar.c:317:56: note: (near initialization for ‘timeN’)
+myar.c: In function ‘t’:
+myar.c:343:15: warning: unused variable ‘name’ [-Wunused-variable]
+         char  name[16];
+               ^~~~
+myar.c: In function ‘tv’:
+myar.c:373:15: warning: unused variable ‘name’ [-Wunused-variable]
+         char  name[16];
+               ^~~~
+myar.c: In function ‘d’:
+myar.c:421:17: warning: unused variable ‘d2’ [-Wunused-variable]
+             int d2 = dsize;
+                 ^~
+myar.c:400:9: warning: unused variable ‘size’ [-Wunused-variable]
+     int size = 0;
+         ^~~~
+myar.c: In function ‘x’:
+myar.c:469:17: warning: unused variable ‘d2’ [-Wunused-variable]
+             int d2 = dsize;
+                 ^~
+myar.c:448:9: warning: unused variable ‘size’ [-Wunused-variable]
+     int size = 0;
+         ^~~~
+myar.c: In function ‘main’:
+myar.c:509:9: warning: unused variable ‘iosize’ [-Wunused-variable]
+     int iosize;   /* actual amount read */
+         ^~~~~~
+myar.c:508:9: warning: unused variable ‘size’ [-Wunused-variable]
+     int size;   /* real buffer size */
+         ^~~~
+myar.c:506:13: warning: unused variable ‘fd2’ [-Wunused-variable]
+     int fd1,fd2;  /* file descriptors */
+             ^~~
+myar.c:506:9: warning: unused variable ‘fd1’ [-Wunused-variable]
+     int fd1,fd2;  /* file descriptors */
+         ^~~
+myar.c: In function ‘fill_ar_hdr’:
+myar.c:127:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+myar.c: In function ‘fill_meta’:
+myar.c:152:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

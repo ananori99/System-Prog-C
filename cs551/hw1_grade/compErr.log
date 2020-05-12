@@ -1,0 +1,10 @@
+tripleprime.c:167:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(int argc, char *argv[]) {
+      ^~~~
+tripleprime.c: In function ‘main’:
+tripleprime.c:241:13: warning: unused variable ‘odd’ [-Wunused-variable]
+         int odd = i*2+1;
+             ^~~
+tripleprime.c:178:9: warning: unused variable ‘j’ [-Wunused-variable]
+     int j = howmany;
+         ^

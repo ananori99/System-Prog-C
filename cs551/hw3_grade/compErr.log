@@ -1,0 +1,54 @@
+uniqify.c: In function ‘splitInput’:
+uniqify.c:87:9: warning: unused variable ‘x’ [-Wunused-variable]
+     int x;
+         ^
+uniqify.c:86:11: warning: unused variable ‘array’ [-Wunused-variable]
+     char *array[500];
+           ^~~~~
+uniqify.c: In function ‘suppres’:
+uniqify.c:196:15: warning: unused variable ‘dictionary’ [-Wunused-variable]
+     element * dictionary = malloc(sizeof (element) * nwords);
+               ^~~~~~~~~~
+uniqify.c:186:12: warning: unused variable ‘j’ [-Wunused-variable]
+     int i, j,k;
+            ^
+uniqify.c: In function ‘main’:
+uniqify.c:389:22: warning: passing argument 1 of ‘dup2’ makes integer from pointer without a cast [-Wint-conversion]
+                 dup2(stream,1);
+                      ^~~~~~
+In file included from uniqify.c:24:0:
+/usr/include/unistd.h:537:12: note: expected ‘int’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int dup2 (int __fd, int __fd2) __THROW;
+            ^~~~
+uniqify.c:401:22: warning: passing argument 1 of ‘dup2’ makes integer from pointer without a cast [-Wint-conversion]
+                 dup2(stream2,0);
+                      ^~~~~~~
+In file included from uniqify.c:24:0:
+/usr/include/unistd.h:537:12: note: expected ‘int’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int dup2 (int __fd, int __fd2) __THROW;
+            ^~~~
+uniqify.c:332:14: warning: unused variable ‘fout’ [-Wunused-variable]
+     int fin, fout;
+              ^~~~
+uniqify.c:332:9: warning: unused variable ‘fin’ [-Wunused-variable]
+     int fin, fout;
+         ^~~
+uniqify.c:331:9: warning: unused variable ‘status’ [-Wunused-variable]
+     int status;                /* childs return status*/
+         ^~~~~~
+uniqify.c:330:12: warning: unused variable ‘newenvp’ [-Wunused-variable]
+     char **newenvp;         /* constructed env pointer */
+            ^~~~~~~
+uniqify.c:329:9: warning: unused variable ‘esize’ [-Wunused-variable]
+     int esize;                /* number of env variables */
+         ^~~~~
+uniqify.c:328:9: warning: unused variable ‘whom’ [-Wunused-variable]
+     int whom;                /* pid of dead child*/
+         ^~~~
+At top level:
+uniqify.c:218:9: warning: ‘which_word’ defined but not used [-Wunused-function]
+     int which_word(element **dictionary, char *string) {
+         ^~~~~~~~~~
+uniqify.c:207:9: warning: ‘is_word_new’ defined but not used [-Wunused-function]
+     int is_word_new(element *dictionary, char *string) {
+         ^~~~~~~~~~~

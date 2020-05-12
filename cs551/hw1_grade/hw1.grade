@@ -1,0 +1,11 @@
+
+Student Noriega,Ana Lilian, NetID alnorie
+------------------------------------------
+Compilation completed correctly. Warnings provided in 'compErr.log' for your information.
+- Segmentation fault running your code.
+(-15 Points) Could not verify any solution.
+(-5 Points) EOF is not properly detected.
+(-5 Points) Your whichseg is not optimized
+(-5 Points) Sieve logic is not bounded by sqrt(N) 
+------------------------------------------
+Final grade = 70

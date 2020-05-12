@@ -1,0 +1,35 @@
+Compiling manage.c .....
+
+manage.c: In function ‘main’:
+manage.c:126:59: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+             if ((fd= accept (s, (struct sockaddr *) &sin, &len)) <0) {
+                                                           ^
+In file included from manage.c:51:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:232:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~
+manage.c:186:41: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+                         comps[i].tested = NULL;
+                                         ^
+manage.c:189:25: warning: null argument where non-null required (argument 3) [-Wnonnull]
+                         snprintf(comps[i].who, 20, NULL);
+                         ^~~~~~~~
+manage.c:189:25: warning: null format string [-Wformat-truncation=]
+                         snprintf(comps[i].who, 20, NULL);
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compiling compute.c .....
+
+compute.c: In function ‘main’:
+compute.c:82:9: warning: unused variable ‘len’ [-Wunused-variable]
+     int len;
+         ^~~
+compute.c: In function ‘perfect’:
+compute.c:174:14: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+     if (start==-2|end==-2){
+         ~~~~~^~~~
+Compiling report.c .....
+
+report.c: In function ‘main’:
+report.c:106:31: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if(perfects[i].perfect != 0){
+                    ~~~~~~~~~~~^~~~~~~~
